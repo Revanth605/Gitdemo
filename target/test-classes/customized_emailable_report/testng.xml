@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="URL1" value="https://opensource-demo.orangehrmlive.com/"/>
+  <parameter name="username1" value="Admin"/>
+  <parameter name="password1" value="admin123"/>
+  <parameter name="firstname1" value="revanth"/>
+  <parameter name="secondname1" value="reddy"/>
+    <classes>
+      <class name="customized_emailable_report.customized_emailable_report1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

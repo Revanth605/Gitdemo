@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="URL1"  value="https://opensource-demo.orangehrmlive.com/"/>
+   <parameter name="username1"  value="Admin"/>
+    <parameter name="password1"  value="admin123"/>
+    <parameter name="firstname1"  value="Revanth"/>
+    <parameter name="secondname1"  value="reddy"/>
+  
+    <classes>
+      <class name="Practice.customizable_email"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+   <test thread-count="5" name="personal_details">
+  
+  <parameter name="URL1"  value="https://opensource-demo.orangehrmlive.com/"/>
+   <parameter name="username1"  value="Admin"/>
+    <parameter name="password1"  value="admin123"/>
+    <parameter name="firstname1"  value="re1th"/>
+    <parameter name="secondname1"  value="kumar"/>
+  
+    <classes>
+      <class name="Practice.customizable_email"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->
